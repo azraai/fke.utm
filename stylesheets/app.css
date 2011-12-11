@@ -31,12 +31,83 @@ a:focus { color: #d18d2e; outline: none; }
   padding-left: 10px;
 }
 
+#quicky
+{
+  padding: 5px 0 0;
+}
+#quicky form
+{
+  margin: 0;
+}
+
+#quicky form#search
+{
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #590e28;
+}
+#quicky form#search #q
+{
+  background: #ffe6bf;
+  width: 98%;
+  padding: 3px;
+  border: none;
+  max-width: 298px;
+}
+
+#quicky form#quick-links ul,
+#quicky form#quick-links li
+{
+  margin: 0;
+}
+#quicky form#quick-links .dk_container
+{
+  background: #ffe6bf;
+}
+#quicky form#quick-links .dk_open .dk_toggle
+{
+  border-color: #e5e5e5;
+}
+
+#quicky #social-media
+{
+  width: auto;
+  display: block;
+  margin-left: 10px;
+}
+#quicky #social-media li
+{
+  float: right;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+#quicky #social-media a
+{
+  width: 32px;
+  height: 32px;
+  display: block;
+  text-indent: -9999px;
+}
+#quicky #social-media li.fb a
+{
+  background-image: url(../images/app/facebook_32.png);
+}
+#quicky #social-media li.twitter a
+{
+  background-image: url(../images/app/twitter_32.png);  
+}
+
 #footer
 {
   font-size: 11px;
   background: #ffe6bf;
   border-top: 4px solid #590e28;
   margin-top: 50px;
+}
+#footer .row
+{
+  background: transparent url(../images/app/footer-bg.png) no-repeat right -40px;
   padding: 20px 0 2px;
 }
 #footer a
@@ -167,11 +238,16 @@ a:focus { color: #d18d2e; outline: none; }
 {
   font-size: 11px;
 }
+#connect .nice.tabs-content.contained ul
+{
+  margin: 0;
+}
 #connect .nice.tabs-content.contained ul > li
 {
   background-position: 0 center;
   background-repeat: no-repeat;
-  line-height: 16px;
+  line-height: 24px;
+  margin: 0;
   padding: 0 0 0 20px;
 }
 

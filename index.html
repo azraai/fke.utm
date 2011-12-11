@@ -13,6 +13,7 @@
   <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
   
 	<link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/dropkick.css">
 	<link rel="stylesheet" href="stylesheets/app.css">
 
 	<!--[if lt IE 9]>
@@ -24,11 +25,33 @@
 <body>
 
 <div class="container">
-  <div id="head" class="row"><div class="four columns">
-    <div id="identity">
-      <h1 class="site-title"><a href="">Faculty of Electrical Engineering</a></h1>
+  <div id="head" class="row">
+    <div class="four columns">
+      <div id="identity">
+        <h1 class="site-title"><a href="">Faculty of Electrical Engineering</a></h1>
+      </div>
     </div>
-  </div></div>
+  
+    <div class="four columns offset-by-four">
+      <div id="quicky">
+        <form id="search">
+          <input type="text" id="q" name="q" placeholder="Search" />
+        </form>
+        <div id="shortcut">
+          <form id="quick-links">
+            <select id="l" name="l">
+              <option>Quick Links</option>
+              <option value="http://utm.my">UTM Homepage</option>
+            </select>
+            <ul id="social-media">
+              <li class="fb"><a href="#">Facebook</a></li>
+              <li class="twitter"><a href="#">Twitter</a></li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   
   <div id="main-navigation" class="row">
     <ul class="nav-bar twelve columns">
@@ -306,6 +329,7 @@
 </div>
 
 <script src="javascripts/foundation.js"></script>
+<script src="javascripts/dropkick.js"></script>
 <script src="javascripts/app.js"></script>
 
 </body>

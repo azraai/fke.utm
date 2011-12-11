@@ -79,4 +79,6 @@ $(document).ready(function () {
     bullets: true,
   });
 
+  $('#l').dropkick();
+
 });
