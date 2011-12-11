@@ -19,14 +19,16 @@ a:focus { color: #d18d2e; outline: none; }
 #head #identity
 {
   background: #ffe6bf url(../images/app/utm-emblem-40.png) no-repeat  20px 10px;
-  height: 60px;
+  height: 40px;
+  padding: 10px 20px 10px 70px;
   border-bottom: 4px solid #590e28;
 }
 #head #identity h1.site-title
 {
   font: normal 20px/1 'Francois One', serif;
   color: #590e28 !important;
-  padding: 10px 10px 0 80px;
+  border-left: 1px solid #590e28;
+  padding-left: 9px;
 }
 
 #main-navigation
