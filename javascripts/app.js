@@ -79,6 +79,14 @@ $(document).ready(function () {
     bullets: true,
   });
 
-  $('#l').dropkick();
-
+  $('#l').dropkick({
+    change: function(value, label)
+    {
+      if(value != 'Quick Links')
+      {
+        answer = confirm( "Are you sure to visit " + label + "?" );
+        if(answer) window.open(value);
+      }
+    }
+  });
 });

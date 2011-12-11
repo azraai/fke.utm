@@ -22,7 +22,7 @@
 	<![endif]-->
 </head>
 
-<body>
+<body id="faculty-overview">
 
 <div class="container">
   <div id="head" class="row">
@@ -55,20 +55,20 @@
   
   <div id="main-navigation" class="row">
     <ul class="nav-bar twelve columns">
-      <li id="mn-home" class="active">
-        <a href="#">Home</a>
+      <li id="mn-home">
+        <a href="index.html">Home</a>
       </li>
 
-      <li class="has-flyout">
+      <li class="has-flyout active">
         <a href="#"><span>Faculty</span> &amp; Internationalization</a>
         
         <div class="flyout sub-nav-columns"><div class="row"><div class="twelve columns">
           <div class="row">
             <div id="fi-faculty" class="six columns">
-              <div class="title">The Faculty</div>
+              <div class="title">Faculty</div>
               <ul>
                 <li><a href="overview.html">Overview</a></li>
-                <li><a href="#">From The Dean</a></li>
+                <li><a href="from-the-dean.html">From The Dean</a></li>
                 <li><a href="#">Mission &amp; Vission</a></li>
                 <li><a href="#">Faculty Management</a></li>
                 <li><a href="#">News</a></li>
@@ -212,54 +212,41 @@
     </ul>
   </div>
   
-  <div id="page-head" class="row hide">
-    <h2 class="page-title">Home</h2>
+  <div id="page-head" class="row">
+    <h2 class="page-title">Overview</h2>
+    <div class="section"><span>Faculty</span></div>
   </div>
-  
-  <div id="fi-ac" class="row">
-    <div id="featured" class="eight columns">
-      <div id="featured-images">
-        <img src="images/app/orbit-1.jpg" alt="Anugerah Webometric #1" data-caption="#fi-1" />
-        <img src="images/app/orbit-1.jpg" alt="Anugerah Webometric #2" data-caption="#fi-2" />
-        <img src="images/app/orbit-1.jpg" alt="Anugerah Webometric #3" data-caption="#fi-3" />
-      </div>
 
-      <div id="featured-captions">
-        <span class="orbit-caption" id="fi-1">Anugerah Webometric #1</span>
-        <span class="orbit-caption" id="fi-2">Anugerah Webometric #2</span>
-        <span class="orbit-caption" id="fi-3">Anugerah Webometric #3</span>
+  <div id="page-content" class="row">
+    <div id="main" class="eight columns">
+      <div class="write-up">
+        <p><img src="images/app/overview-image.png" class="left" alt="FKE New Building" />The Faculty was first established in 1974, and commenced operations on June 1st, 1995. The Faculty now operates from the main campus of the Universitiy in Skudai, Johor. The Faculty has attained, since April 2004, the ISO 9001:2000 standards certification from Llyod's RQA in the scope of "Provision Of Full Time Tertiary Education and Learning Courses for the Bachelor of Engineering (Honours) program." The Faculty of Electrical Engineering in UTM is committed to be a world class center of excellence and a leader in teaching and learning within the field of electrical engineering.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros lectus, fermentum eu vestibulum ut, luctus ut eros. Donec ullamcorper enim luctus nunc imperdiet id blandit arcu placerat. In in mauris ut ligula consequat lacinia quis aliquet nulla. Morbi tortor orci, malesuada et feugiat ut, ultricies id augue. Proin pellentesque, lorem non lacinia interdum, augue arcu volutpat magna, eget malesuada arcu sapien eu neque. Etiam dolor risus, dapibus ac mattis quis, feugiat eget dolor. Nullam varius magna eget massa congue mollis. Nulla nisl libero, pellentesque quis fermentum sit amet, elementum vel urna. Nunc tincidunt consequat arcu nec consequat. Aenean ultrices eros eget neque venenatis tempus. Integer metus orci, varius in sollicitudin eu, luctus at justo.</p>
+
+        <p>Nullam commodo vestibulum lectus sit amet facilisis. Morbi suscipit, sapien et rutrum euismod, libero magna iaculis leo, nec commodo erat elit sit amet justo. Suspendisse tristique rhoncus quam. Nunc elementum dolor quis neque condimentum consequat. Integer non libero a urna consectetur tincidunt. Vestibulum vitae diam in elit dignissim consequat. Proin ut massa urna. Vestibulum lectus lacus, pretium ac ultricies a, ornare quis lacus. Duis eget nisl nibh, nec rutrum neque. Ut non iaculis risus.</p>
       </div>
     </div>
 
-    <div id="announcements" class="four columns">
-      <dl class="nice contained tabs">
-        <dd><a href="#annoucements" class="active">Annoucements</a></dd>
-      </dl>
-      <ul class="nice tabs-content contained">
-        <li id="announcementsTab" class="active">
-          <p>Visit <a href="#">EMS</a> to check your final examination time table.</p>
-          <p>All first year students are require to undetake My3S survey by MOHE. The survey is being conducted between 7 November 2011 until 11 December 2011. Answer the survey at <a href="#">My3S website</a> now.</p>
-          <p>All students are require to evalute classes lecturer and instructors between 14 November 2011 until 23 December 2011. The survey is available at  <a href="#">ePPP</a>.</p>
-        </li>
-      </ul>
+    <div id="aside" class="four columns">
+      <div class="sub-section-navigation">
+        <dl class="nice contained tabs">
+          <dd><a href="#" class="active">Faculty</a></dd>
+        </dl>
+        <ul class="nice tabs-content contained">
+          <li id="facultyTab" class="active">
+            <ul>
+              <li class="active"><a href="overview.html">Overview</a></li>
+              <li><a href="from-the-dean.html">From The Dean</a></li>
+              <li><a href="#">Mission &amp; Vission</a></li>
+              <li><a href="#">Faculty Management</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Upcoming Events</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-
-  <div id="everything"><div class="row">
-    <div class="two columns">
-      <dl class="nice vertical contained tabs">
-        <dd><a href="#news" class="active">News</a></dd>
-        <dd><a href="#events">Events</a></dd>
-      </dl>
-    </div>
-
-    <div class="ten columns">
-      <ul class="nice tabs-content contained">
-        <li class="active" id="newsTab">This is nice tab 1's content. Pretty neat, huh?</li>
-        <li id="eventsTab">This is nice tab 2's content. Now you see it!</li>
-      </ul>
-    </div>
-  </div></div>
 
   <div id="connect"><div class="row">
     <div class="four columns">
