@@ -1,8 +1,16 @@
-body { background: #fcfcfc; }
+body { color: #000; background: #fcfcfc; }
 
 a { color: #590e28; text-decoration: none; line-height: inherit; }
 a:hover { color: #d18d2e; }
 a:focus { color: #d18d2e; outline: none; }
+
+.nice.tabs dd a.active { border-top: 3px solid #d18d2e; }
+.nice.tabs.vertical dd a.active { background: #d18d2e; }
+
+.nav-bar>li.has-flyout>a:after { border-top: 4px solid #d18d2e; }
+.nav-bar>li:hover>a:after { border-top-color: #141414; }
+
+.flyout { background: #8d1645; border: none; left: 0; z-index: 10000; }
 
 #head
 {
@@ -30,7 +38,7 @@ a:focus { color: #d18d2e; outline: none; }
   margin: 0;
   border: none;
 
-  background: #8d1645; /* Old browsers */
+  background: #590e28; /* Old browsers */
   background: -moz-linear-gradient(top, #8d1645 0%, #590e28 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8d1645), color-stop(100%,#590e28)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #8d1645 0%,#590e28 100%); /* Chrome10+,Safari5.1+ */
@@ -53,6 +61,14 @@ a:focus { color: #d18d2e; outline: none; }
   font-weight: bold;
   font-size: 11px;
   line-height: 1;
+  height: 45px;
+}
+#main-navigation .nav-bar > li:hover,
+#main-navigation .nav-bar > li > a:hover,
+#main-navigation .nav-bar > li.active,
+#main-navigation .nav-bar > li.active > a
+{
+  background: #8d1645;
 }
 #main-navigation .nav-bar li > a > span
 {
@@ -61,4 +77,74 @@ a:focus { color: #d18d2e; outline: none; }
   text-transform: uppercase;
   display: block;
   padding-top: 5px;
+}
+#main-navigation .flyout
+{
+  color: #fff;
+}
+#main-navigation .flyout a:hover
+{
+  color: #d18d2e;
+}
+#main-navigation .flyout.sub-nav-columns .title
+{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+#main-navigation .flyout.sub-nav-columns ul,
+#main-navigation .flyout.sub-nav-columns ul > li
+{
+  font-size: 12px;
+  margin: 0;
+}
+#main-navigation .flyout.sub-nav-columns ul > li
+{
+  margin-bottom: 2px;
+}
+
+#main-navigation #mn-home a
+{
+  background: url(../images/app/nav-home.png) no-repeat center;
+  text-indent: -9999px;
+  width: 45px;
+  height: 45px;
+  padding: 0 5px;
+}
+
+#fi-ac
+{
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+#announcements .tabs-content
+{
+  font-size: 11px;
+}
+#announcements .tabs-content a
+{
+  font-weight: bold;
+}
+
+.widget
+{
+  position: relative;
+}
+.widget h3.widget-title
+{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  color: #590e28;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.widget .widget-more
+{
+  position: absolute;
+  top: 1px;
+  right: 0;
 }
