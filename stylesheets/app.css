@@ -1,30 +1,64 @@
-/* Foundation v2.1.3 http://foundation.zurb.com */
-/* Artfully masterminded by ZURB  */
+body { background: #fcfcfc; }
 
-/* -------------------------------------------------- 
-   Table of Contents
------------------------------------------------------
-:: Shared Styles
-:: Page Name 1
-:: Page Name 2
-*/
+a { color: #590e28; text-decoration: none; line-height: inherit; }
+a:hover { color: #d18d2e; }
+a:focus { color: #d18d2e; outline: none; }
 
+#head
+{
+  margin-bottom: 40px;
+}
+#head #identity
+{
+  background: #ffe6bf url(../images/app/utm-emblem-40.png) no-repeat  10px 10px;
+  height: 60px;
+  border-bottom: 4px solid #590e28;
+}
+#head #identity h1.site-title
+{
+  font: normal 20px/1 'Bitter', serif;
+  color: #590e28 !important;
+  padding: 10px 10px 0 60px;
+}
 
-/* -----------------------------------------
-   Shared Styles
------------------------------------------ */
+#main-navigation
+{
+  margin-bottom: 40px;
+}
+#main-navigation .nav-bar 
+{
+  margin: 0;
+  border: none;
 
-
-
-/* -----------------------------------------
-   Page Name 1
------------------------------------------ */
-
-
-
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
-
-
+  background: #8d1645; /* Old browsers */
+  background: -moz-linear-gradient(top, #8d1645 0%, #590e28 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8d1645), color-stop(100%,#590e28)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #8d1645 0%,#590e28 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #8d1645 0%,#590e28 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #8d1645 0%,#590e28 100%); /* IE10+ */
+  background: linear-gradient(top, #8d1645 0%,#590e28 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d1645', endColorstr='#590e28',GradientType=0 ); /* IE6-9 */
+}
+#main-navigation .nav-bar a
+{
+  color: #fff;
+}
+#main-navigation .nav-bar > li
+{
+  height: 45px;
+  border-right: 1px solid #fcfcfc;
+}
+#main-navigation .nav-bar > li > a
+{
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 1;
+}
+#main-navigation .nav-bar li > a > span
+{
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 5px;
+}
