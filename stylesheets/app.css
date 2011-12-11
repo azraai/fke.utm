@@ -34,7 +34,7 @@ a:focus { color: #d18d2e; outline: none; }
 
 #quicky
 {
-  padding: 5px 0 0;
+  padding: 3px 0 0;
 }
 #quicky form
 {
@@ -43,8 +43,8 @@ a:focus { color: #d18d2e; outline: none; }
 
 #quicky form#search
 {
-  margin-bottom: 5px;
-  padding-bottom: 5px;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
   border-bottom: 1px solid #590e28;
 }
 #quicky form#search #q
@@ -63,6 +63,7 @@ a:focus { color: #d18d2e; outline: none; }
 #quicky form#quick-links .dk_container
 {
   background: #ffe6bf;
+  margin: 0;
 }
 #quicky form#quick-links .dk_open .dk_toggle
 {
