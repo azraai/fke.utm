@@ -18,15 +18,15 @@ a:focus { color: #d18d2e; outline: none; }
 }
 #head #identity
 {
-  background: #ffe6bf url(../images/app/utm-emblem-40.png) no-repeat  10px 10px;
+  background: #ffe6bf url(../images/app/utm-emblem-40.png) no-repeat  20px 10px;
   height: 60px;
   border-bottom: 4px solid #590e28;
 }
 #head #identity h1.site-title
 {
-  font: normal 20px/1 'Bitter', serif;
+  font: normal 20px/1 'Francois One', serif;
   color: #590e28 !important;
-  padding: 10px 10px 0 60px;
+  padding: 10px 10px 0 80px;
 }
 
 #main-navigation
