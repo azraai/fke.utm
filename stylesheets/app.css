@@ -31,6 +31,23 @@ a:focus { color: #d18d2e; outline: none; }
   padding-left: 10px;
 }
 
+#footer
+{
+  font-size: 11px;
+  background: #ffe6bf;
+  border-top: 4px solid #590e28;
+  margin-top: 50px;
+  padding: 20px 0 2px;
+}
+#footer a
+{
+  font-weight: bold;
+}
+#footer #legalese
+{
+  text-align: right;
+}
+
 #main-navigation
 {
   margin-bottom: 40px;
@@ -119,7 +136,7 @@ a:focus { color: #d18d2e; outline: none; }
 #fi-ac
 {
   height: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #announcements .tabs-content
@@ -131,22 +148,55 @@ a:focus { color: #d18d2e; outline: none; }
   font-weight: bold;
 }
 
-.widget
+
+#everything
 {
-  position: relative;
+  margin-bottom: 40px;
+  clear: both;
 }
-.widget h3.widget-title
+#everything .nice.vertical.tabs
 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1;
-  color: #590e28;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-right: -34%;
 }
-.widget .widget-more
+#everything .nice.tabs-content.contained > li
 {
-  position: absolute;
-  top: 1px;
-  right: 0;
+  border: 1px solid #eee;
+}
+
+#connect .nice.tabs-content.contained
+{
+  font-size: 11px;
+}
+#connect .nice.tabs-content.contained ul > li
+{
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  line-height: 16px;
+  padding: 0 0 0 20px;
+}
+
+#in-the-netTab .fb
+{
+  background-image: url(../images/app/facebook_16.png);
+}
+#in-the-netTab .twitter
+{
+  background-image: url(../images/app/twitter_16.png);
+}
+#in-the-netTab .youtube
+{
+  background-image: url(../images/app/youtube_16.png);
+}
+
+#emailTab li
+{
+  background-image: url(../images/app/email.png);
+}
+#emailTab span
+{
+  font-style: italic;
+}
+#resourcesTab li
+{
+  background-image: url(../images/app/world.png);
 }
